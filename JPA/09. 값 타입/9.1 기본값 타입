@@ -1,0 +1,12 @@
+# 기본값 타입
+```JAVA
+@Entity
+public class Member {
+  @Id @GeneratedValue //식별자 값, 생명주기 존재
+  private Long id;
+  
+  private String name; //값 타입 -> 공유x
+  private int age;     //값 타입
+  
+}
+```
